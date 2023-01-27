@@ -14,10 +14,10 @@ function IdCard(props) {
         <strong>Gender</strong>: {gender}
       </p>
       <p>
-        <strong>Last name</strong>: {height}
+        <strong>Height</strong>: {height}
       </p>
       <p>
-        <strong>Last name</strong>: {birth}
+        <strong>Birth</strong>: {birth.toString().slice(0, 16)}
       </p>
       <img alt="id" src={picture} />
     </div>
