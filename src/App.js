@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.css";
-import Greetings from "./components/Greetings";
-import IdCard from "./components/IdCard";
+import Carousel from "./components/Carousel";
 import LikeButton from "./components/LikeButton";
-import Random from "./components/Random";
 
 function App() {
   return (
     <div className="App">
-      <IdCard
+      {/* <IdCard
         lastName="Doe"
         firstName="John"
         gender="male"
@@ -29,8 +27,17 @@ function App() {
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
       <Random min={1} max={6} />
-      <Random min={1} max={6} />
+      <Random min={1} max={6} /> */}
       <LikeButton />
+
+      <Carousel
+        images={[
+          "https://randomuser.me/api/portraits/women/1.jpg",
+          "https://randomuser.me/api/portraits/men/1.jpg",
+          "https://randomuser.me/api/portraits/women/2.jpg",
+          "https://randomuser.me/api/portraits/men/2.jpg",
+        ]}
+      />
     </div>
   );
 }
