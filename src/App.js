@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Carousel from "./components/Carousel";
 import LikeButton from "./components/LikeButton";
+import NumbersTable from "./components/NumbersTable";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
           "https://randomuser.me/api/portraits/men/2.jpg",
         ]}
       />
+
+      <NumbersTable limit={9} />
     </div>
   );
 }

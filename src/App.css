@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.numbersTable {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.red {
+  background-color: red;
+}
+
+li {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border: 1px solid black;
+}
