@@ -39,6 +39,7 @@
 
 .numbersTable {
   display: flex;
+  flex-wrap: wrap;
 }
 
 ul {

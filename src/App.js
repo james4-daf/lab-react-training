@@ -40,7 +40,7 @@ function App() {
         ]}
       />
 
-      <NumbersTable limit={9} />
+      <NumbersTable limit={54} />
     </div>
   );
 }

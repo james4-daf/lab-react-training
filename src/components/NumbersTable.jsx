@@ -8,7 +8,7 @@ function NumbersTable({ limit }) {
 
   return (
     <ul className="numbersTable">
-      {newArr.slice(0, limit + 1).map((number) =>
+      {newArr.map((number) =>
         number % 2 === 0 ? (
           <li className="red" key={number}>
             {number}
