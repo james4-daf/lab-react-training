@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
-import Carousel from "./components/Carousel";
-import LikeButton from "./components/LikeButton";
-import NumbersTable from "./components/NumbersTable";
+import clickedImgfrom from "./assets/images/maxence-glasses.png";
+import img1 from "./assets/images/maxence.png";
+import ClickablePicture from "./components/ClickablePicture";
 
 function App() {
   return (
@@ -29,18 +29,21 @@ function App() {
       <Greetings lang="fr">François</Greetings>
       <Random min={1} max={6} />
       <Random min={1} max={6} /> */}
-      <LikeButton />
+      {/* <LikeButton /> */}
 
-      <Carousel
+      {/* <Carousel
         images={[
           "https://randomuser.me/api/portraits/women/1.jpg",
           "https://randomuser.me/api/portraits/men/1.jpg",
           "https://randomuser.me/api/portraits/women/2.jpg",
           "https://randomuser.me/api/portraits/men/2.jpg",
         ]}
-      />
+      /> */}
+      <ClickablePicture image={img1} imgClicked={clickedImgfrom} />
 
-      <NumbersTable limit={54} />
+      {/* <NumbersTable limit={54} />
+      <Rating>2</Rating>
+      <Counter /> */}
     </div>
   );
 }
