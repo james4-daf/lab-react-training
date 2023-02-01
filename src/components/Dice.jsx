@@ -28,7 +28,7 @@ function Dice() {
   const [dice, setDice] = useState(Dice1);
   return (
     <div>
-      <img alt="" src={dice} onClick={asyncCall} />
+      <img className="click" alt="" src={dice} onClick={asyncCall} />
     </div>
   );
 }

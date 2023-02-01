@@ -7,6 +7,7 @@ function ClickablePicture(props) {
   return (
     <div>
       <img
+        className="click"
         alt=""
         src={!image2 ? image : imgClicked}
         onClick={() => {
