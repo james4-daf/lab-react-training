@@ -3,6 +3,7 @@ import "./App.css";
 import clickedImgfrom from "./assets/images/maxence-glasses.png";
 import img1 from "./assets/images/maxence.png";
 import ClickablePicture from "./components/ClickablePicture";
+import Dice from "./components/Dice";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         ]}
       /> */}
       <ClickablePicture image={img1} imgClicked={clickedImgfrom} />
+      <Dice />
 
       {/* <NumbersTable limit={54} />
       <Rating>2</Rating>
